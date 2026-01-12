@@ -1,6 +1,6 @@
 ###Leer -> input
 #input permite interactuar con el usuario y alamacenar su respuesta en una variable
-input("pulse enter para continuar")
+# input("pulse enter para continuar")
 nombre = input("Ingrese su nombre por favor: ")
 apellido = input("Ingrese su apellido por favor: ")
 edad = input("Ingrese su edad por favor: ")

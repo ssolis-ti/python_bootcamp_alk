@@ -27,7 +27,7 @@ print("modulo", resultado_modulo)
 resultado_division_entera = numero1 // numero2 #entrega la parte entera de la division
 print("Division entera", resultado_division_entera)
 
-resultado_potencia = numero1 ** numero2  # 10^5
+resultado_potencia = numero1**numero2  # 10^5
 print("Potencia", resultado_potencia)
 ###################################################################
 #Operadores de asignacion
