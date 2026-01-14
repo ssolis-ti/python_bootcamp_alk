@@ -41,7 +41,7 @@ en el caso de letas u otros valores deberiamos enviar un mensaje de que el dato 
 try:
 
     temperatura = float(input("Ingrese la temperatura actual en °C: "))
-
+    
     if temperatura < 10:
         print("🧥 Usar abrigo grueso y bufanda")
     elif 10<= temperatura <= 20:
