@@ -9,20 +9,26 @@
 8. Bonus: Ordenar el diccionario por frecuencia descendente
 """
 
+#1
+frase = input("Ingrese una frase para contar sus palabras: ")
 
-frase = "Python es genial y Python es poderoso"
+#2 Dividir la frase en una lista de palabras
+palabras = frase.split()
 
-print(frase.split()) 
-
-
+#3 Creamos el diccionario llamado frecuencia
 frecuencia = {}
 
-print(frecuencia.get("es", 0))
 
-for palabra in frase.split():
-
+#4 recorrer palabras con un for
+for palabra in palabras:
+    #5 y 6 seria en este paso
     frecuencia[palabra] = frecuencia.get(palabra,0) + 1
 
+#7
 print(frecuencia)
 
-
+#8 bonus
+ordenado_desc = dict(
+    sorted(frecuencia.items(), key=lambda item: item[1], reverse=True) #valores
+)
+print(ordenado_desc)
